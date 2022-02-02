@@ -1,9 +1,12 @@
 import React from 'react'
+import {Card} from '../components'
 
 const HomePage = () => {
     return (
-        <div>HomePage</div>
-    )
-}
+        <Card>
+            dd
+        </Card>
+    );
+};
 
-export default HomePage
+export default HomePage;
