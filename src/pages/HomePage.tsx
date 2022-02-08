@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card} from '../components'
+import {CardTest} from '../components'
 
 const HomePage = () => {
 
@@ -18,9 +18,7 @@ const HomePage = () => {
     //   }`
 
     return (
-        <Card>
-            dd
-        </Card>
+        <CardTest.Card/>
     );
 };
 
