@@ -37,12 +37,12 @@ This means that when you use <CheckboxInput />, it will be a checkbox by default
 //   color: ${props => props.theme.color.main ? props.theme.color.main : 'red'};
 // `
 
-function createWithBsPrefix(cardTitle: string, param2: { Component: any }) {
-
-}
-
 const CardContainer = styled.div`
+  width: 100px;
+  height: 50px;
 
+  border-radius: 2px;
+  border: solid 1px black;
 `
 
 const Card = (props: any) => {

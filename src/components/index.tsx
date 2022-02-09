@@ -1,8 +1,1 @@
-import {Card} from "./card";
-
-// export {Card, CardContent, CardFooter, CardTitle} from './card';
-export class CardTest {
-    // @ts-ignore
-    public Card: Card;
-    // static Card: IntrinsicAttributes;
-}
+export {Card, CardContent, CardFooter, CardTitle, CardImage} from './card';
