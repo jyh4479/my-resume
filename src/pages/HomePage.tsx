@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card} from '../components'
+import {Card, CardContent, CardFooter, CardTitle} from '../components'
 
 const HomePage = () => {
 
@@ -7,11 +7,19 @@ const HomePage = () => {
         <div style={{height: '200px'}}>
 
             <Card>
-                CardTest
+                <CardTitle>
+                    Title Test
+                </CardTitle>
+                <CardContent>
+                    Content Test
+                </CardContent>
+                <CardFooter>
+                    Footer Test
+                </CardFooter>
             </Card>
 
         </div>
-    );
-};
+    )
+}
 
 export default HomePage;

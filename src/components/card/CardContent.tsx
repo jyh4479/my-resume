@@ -1,8 +1,15 @@
 import React from 'react';
+import styled from "styled-components";
 
-const CardContent = () => {
+const Content = styled.div`
+  padding: 10px 10px 10px 10px;
+`
+
+const CardContent = (props: any) => {
     return (
-        <div>content</div>
+        <Content>
+            {props.children}
+        </Content>
     )
 }
 

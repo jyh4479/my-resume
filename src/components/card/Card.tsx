@@ -38,10 +38,10 @@ This means that when you use <CheckboxInput />, it will be a checkbox by default
 // `
 
 const CardContainer = styled.div`
-  width: 100px;
-  height: 50px;
+  width: 50vw;
+  //height: 50px;
 
-  border-radius: 2px;
+  border-radius: 5px;
   border: solid 1px black;
 `
 
