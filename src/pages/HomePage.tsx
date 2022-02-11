@@ -1,15 +1,16 @@
 import React from 'react'
-import {Card, CardContent, CardFooter, CardTitle} from '../components'
+import {Card, CardContent, CardFooter, CardImage, CardTitle} from '../components'
 
 const HomePage = () => {
 
     return (
-        <div style={{height: '200px'}}>
+        <div>
 
             <Card>
                 <CardTitle>
                     Title Test
                 </CardTitle>
+                <CardImage/>
                 <CardContent>
                     Content Test
                 </CardContent>
