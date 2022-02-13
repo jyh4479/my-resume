@@ -10,12 +10,17 @@ interface CardImageProps {
 }
 
 const defaultProps: CardImageProps = {
-    src: 'images/default.png'
+    src: 'images/default.png',
 }
+
+const Image = styled.img`
+  display: block;
+  margin: auto;
+`
 
 const CardImage: FunctionComponent<CardImageProps> = props => {
     return (
-        <img src={props.src} alt={'test'}/>
+        <Image src={props.src} alt={'test'}/>
     )
 }
 
