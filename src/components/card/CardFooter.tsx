@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Footer = styled.div`
   padding: 10px 10px 10px 10px;
-  border-radius: 0 0 5px 5px;
   background: lightsteelblue;
 `
 

@@ -37,19 +37,29 @@ This means that when you use <CheckboxInput />, it will be a checkbox by default
 //   color: ${props => props.theme.color.main ? props.theme.color.main : 'red'};
 // `
 
-const CardContainer = styled.div`
+const Container = styled.div`
   width: 50vw;
   //height: 50px;
 
-  border-radius: 5px;
-  border: solid 1px black;
+  border-radius: 0.25rem;
+  border: solid 1px lightgray;
+
+  &:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+  &:last-child {
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
 `
 
 const Card = (props: any) => {
     return (
-        <CardContainer>
+        <Container>
             {props.children}
-        </CardContainer>
+        </Container>
     );
 };
 
