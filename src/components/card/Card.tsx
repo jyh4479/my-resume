@@ -44,14 +44,16 @@ const Container = styled.div`
   border-radius: 0.25rem;
   border: solid 1px lightgray;
 
-  &:first-child {
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  }
+  & > {
+    &:first-child {
+      //https://velog.io/@broccolism/border-radius%EB%A5%BC-%EC%A0%95%ED%95%A0-%EB%95%8C-%EC%A3%BC%EC%9D%98%ED%95%A0-%EC%A0%90
+      //border radius의 외부 내부 값이 같은 경우 문제점과 해결하는 방법
+      border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    }
 
-  &:last-child {
-    border-bottom-left-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
+    &:last-child {
+      border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+    }
   }
 `
 

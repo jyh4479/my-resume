@@ -4,8 +4,7 @@ import {Card, CardContent, CardFooter, CardImage, CardTitle} from '../components
 const HomePage = () => {
 
     return (
-        <div>
-
+        <>
             <Card>
                 <CardTitle>
                     Title Test
@@ -18,8 +17,7 @@ const HomePage = () => {
                     Footer Test
                 </CardFooter>
             </Card>
-
-        </div>
+        </>
     )
 }
 
