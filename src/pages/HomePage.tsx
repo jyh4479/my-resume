@@ -1,5 +1,15 @@
 import React from 'react'
-import {Card, CardContent, CardFooter, CardImage, CardTitle} from '../components'
+import {
+    Card,
+    CardContent,
+    CardFooter,
+    CardImage,
+    CardTitle,
+    Table,
+    TableData,
+    TableHeader,
+    TableRow
+} from '../components'
 
 const HomePage = () => {
 
@@ -17,6 +27,20 @@ const HomePage = () => {
                     Footer Test
                 </CardFooter>
             </Card>
+
+            <Table>
+                <TableRow>
+                    <TableHeader>1</TableHeader>
+                    <TableHeader>2</TableHeader>
+                    <TableHeader>3</TableHeader>
+                </TableRow>
+                <TableRow>
+                    <TableData>a</TableData>
+                    <TableData>b</TableData>
+                    <TableData>c</TableData>
+                </TableRow>
+            </Table>
+
         </>
     )
 }
