@@ -1,8 +1,14 @@
 import React from 'react';
+import styled from "styled-components";
+
+const TableContainer = styled.table`
+`
 
 const Table = (props: any) => {
     return (
-        <div>Table Test</div>
+        <TableContainer>
+            {props.children}
+        </TableContainer>
     )
 }
 
