@@ -6,7 +6,7 @@ const theme: DefaultTheme = {
 
     color: {
         // main: "#1c1f25",
-        main: "black",
+        main: "lightsteelblue",
         sub: "#fff"
     }
 };
